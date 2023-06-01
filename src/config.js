@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Emoji Faces";
-const description = "Emoji faces NFT Collections, NFT boştur loo";
-const baseUri = "ipfs/QmZkUeDXzeZjGtuLjiMX9Ud3bmjaV3yBK1D1HYpMwJynmm/";
+const namePrefix = "Snake's NFT";
+const description = "Snake's NFT Collections, Mint and Sssss";
+const baseUri = "ipfs/QmasJ7bRsH2vpHsfztJZMjJzVo44hEjoyiA7H1cr4875Lr";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -27,9 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 50,
     layersOrder: [
       { name: "Backgrounds" },
-      { name: "Left Eye" },
-      { name: "Right Eye" },
-      { name: "Mouth" }
+      { name: "Skins" },
+      { name: "Expression" },      
+      { name: "Eyes" },      
+      { name: "Clothes" },
+      { name: "Accessories" },
+      { name: "Headgear" }  
 
     ],
   },
